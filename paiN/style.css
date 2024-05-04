@@ -1,0 +1,87 @@
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+
+.welcome-message {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .welcome-message h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-message p {
+    font-size: 1.2rem;
+  }
+
+  #tipos-de-pasteis {
+    padding: 50px 0;
+  }
+  
+  .pastel-info {
+    text-align: center;
+  }
+  
+  .pastel-icon {
+    width: 100px;
+    height: 100px;
+    
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+  }
+  
+  .pastel-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
+  
+  .pastel-details h3 {
+    margin-bottom: 10px;
+  }
+  
+  .pastel-details p {
+    font-size: 0.9rem;
+  }
+
+
+  #cardapio {
+    padding: 50px 0;
+  }
+  
+  .pastel-item {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .pastel-image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+  }
+  
+  .pastel-image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
+  
+  .pastel-details h3 {
+    margin-bottom: 10px;
+  }
+  
+  .pastel-details p {
+    font-size: 0.9rem;
+  }  
+  
+  

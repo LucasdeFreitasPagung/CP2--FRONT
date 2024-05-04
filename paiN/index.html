@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastelaria do Seu Zé</title>
+ 
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+ 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+  
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Pastelaria do Seu Zé</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cardapio.html">Cardápio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre-nos.html">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="welcome-message">
+        <div class="container">
+          <h1>Bem-vindo à Pastelaria do Seu Zé!</h1>
+          <p>Os melhores pasteis da região, feitos com carinho e ingredientes de qualidade.</p>
+        </div>
+      </div>
+  <section id="destaque">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center mb-4"></h2>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/carne1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/frango1.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/queijo1.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tipos-de-pasteis">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="pastel-info">
+            <div class="pastel-icon">
+              <img src="images/carne.jpg" alt="Pastel 1">
+            </div>
+            <div class="pastel-details">
+              <h3>Pastel de Carne</h3>
+              <p>Pastel recheado com carne moída, cebola e temperos especiais.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="pastel-info">
+            <div class="pastel-icon">
+              <img src="images/queijo.jpg" alt="Pastel 2">
+            </div>
+            <div class="pastel-details">
+              <h3>Pastel de Queijo</h3>
+              <p>Pastel recheado com queijo derretido e orégano.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="pastel-info">
+            <div class="pastel-icon">
+              <img src="images/frango.jpg" alt="Pastel 3">
+            </div>
+            <div class="pastel-details">
+              <h3>Pastel de Frango</h3>
+              <p>Pastel recheado com frango desfiado e catupiry.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
